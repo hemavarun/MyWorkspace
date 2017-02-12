@@ -18,20 +18,21 @@ public class SampleCode1 {
 		System.out.println("Enter description :");
 		session.Description =reader.readLine();
 		session.custDate = dateTime.getDateTime();
-		System.out.println("1. Entry Level");
-		System.out.println("2. Mid Level");
-		System.out.println("3. Professional Level");
-		System.out.println("Enter option :");
+		System.out.println();
+		System.out.println("1. Beginner");
+		System.out.println("2. Intermediate");
+		System.out.println("3. Advanced");
+		System.out.println("Choose an option :");
 		option = Integer.parseInt(reader.readLine());
 		switch(option){
 		
-		case 1: session.level = "Entry Level";
+		case 1: session.level = "Beginner";
 				break;
 				
-		case 2: session.level = "Mid Level";
+		case 2: session.level = "Intermediate";
 		        break;
 		
-		case 3: session.level = "Professional Level";
+		case 3: session.level = "Advanced";
 		        break;
 		        
 		default: System.out.println("Please enter a valid option");  
