@@ -19,9 +19,9 @@ public class SampleCode1 {
 		session.Description =reader.readLine();
 		session.custDate = dateTime.getDateTime();
 		System.out.println();
-		System.out.println("1. Beginner");
-		System.out.println("2. Intermediate");
-		System.out.println("3. Advanced");
+		System.out.println("1. Beginner level");
+		System.out.println("2. Intermediate level");
+		System.out.println("3. Advanced level");
 		System.out.println("Choose an option :");
 		option = Integer.parseInt(reader.readLine());
 		switch(option){
